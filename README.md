@@ -28,7 +28,8 @@ That I have to implement the solution as close to the design as possible without
 Technologies: plain HTML, plain CSS
 
 How to run:
-- Go to assignment1Design
+- Run `git clone https://github.com/gracehxh/Full-Stack-pre-assessment.git`
+- Run `cd assignment1Design`
 - Double click on index page (`index.html`)
 
 Difficulty:
@@ -94,3 +95,14 @@ Technologies:
         - Reduces boilerplate code
 - Navigation: React-router-dom
     - Navigation between different pages with history tracking. Just because alot of users tend to be so used to the browser back button despite most modern application being a single page application. Thus even attempts to disable it might make users think there's some user experience awkwardness. Thus react-router-dom and history.push() is used
+    - "Back" feature is available for Product Details and Shopping Cart pages
+
+Difficulties:
+- Might not have time to work on testing
+- Wanted to work on filtering products by categories 
+
+
+How to run:
+- Run `cd ../assignment2shoppingcart`
+- Run `npm install` to install dependencies
+- Run `npm run start` and wait for `http://localhost:3000` to open in your preferred window browser
