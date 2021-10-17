@@ -1,0 +1,164 @@
+body {
+    background-color: #F7F8F9;
+    font-family: sans-serif;
+}
+
+.container {
+    /* width: 70%;
+    min-width: 50%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.kanban-heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+.avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    width: 30px;
+    height: 30px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+.logo {
+    width: 30px; 
+    height: 30px;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+input {
+    background-image: url("search.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    border-left: 1px solid #C5CCAD;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+
+    width: 90%;
+}
+
+.kanban-board {
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kanban-block{
+    padding: 0.6rem 1rem;
+    width: 35%;
+    /* min-width: 14rem; */
+    /* min-height: 4.5rem; */
+    border-radius: 0.3rem;
+    color: #272A43;
+}
+
+.kanban-block-category {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.task {
+    margin: 1.5rem 0rem;
+    border-radius: 0.2rem;
+    background: #FFFFFF;
+    height: 150px;
+    width: 100%;
+    color: #B0B1BA;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.task-heading {
+    color: #646678;
+    font-weight: normal;
+}
+
+.task-content {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 30%;
+    line-height: 1.6;
+}
+
+.taskStatusValid {
+    color: #4ED86E;
+}
+
+.taskStatusToday {
+    color: #915AFF;
+}
+
+.taskStatusLate {
+    color: #F14455;
+}
+
+.taskStatusExpired {
+    color: #BCC2CE;
+}
+
+.taskStatus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin: 0.5rem inherit; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+}
+
+.user {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    padding: 8px;
+    background: #C335FB;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.taskStatusDate {
+    font-size: 10px;
+    width: 30%;
+    text-align: end;
+    margin: auto 30px;
+}

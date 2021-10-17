@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="kanban-heading">
+            <img class='logo' src="logo.png" alt="logo">
+            <!-- <strong class="kanban-heading-text">Kanban Board</strong> -->
+            <!-- <div class="search">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="text" class="searchTerm" placeholder="&#xf02b; Search for ..">
+            </div> -->
+
+            <input type="search" name="search" placeholder="Search for .." rel="search" />
+            <div class="avatar"></div>
+        </div>
+        <div class="kanban-board">
+            <div class="kanban-block" id="todo">
+                <div class='kanban-block-category'>Backlog</div>
+                <!-- <task-component/> -->
+                <div class="task" id="task1">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">OZ</div>
+                        <!-- <div class="taskStatusDate">days ago</div> -->
+                    </div>
+                </div>
+                <div class="task" id="task2">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">LE</div>
+                        <div class="taskStatusDate taskStatusLate">Two days ago</div>
+                    </div>
+                </div>
+                <div class="task" id="task3">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">ME</div>
+                    </div>
+                </div>
+            </div>
+            <div class="kanban-block" id="inprogress">
+                <div class='kanban-block-category'>Todo</div>
+                
+                <div class="task" id="task4">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">AM</div>
+                        <div class="taskStatusDate taskStatusToday">Today</div>
+                    </div>
+                </div>
+
+                <div class="task" id="task5">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">OZ</div>
+                        <div class="taskStatusDate taskStatusValid">In three days</div>
+                    </div>
+                </div>
+
+                <div class="task" id="task6">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">LE</div>
+                        <div class="taskStatusDate taskStatusValid">Jul 21</div>
+                    </div>
+                </div>
+            </div>
+            <div class="kanban-block" id="done">
+                <div class='kanban-block-category'>Done</div>
+
+                <div class="task" id="task7">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">LE</div>
+                        <div class="taskStatusDate taskStatusExpired">A week ago</div>
+                    </div>
+                </div>
+
+                <div class="task" id="task8">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">OZ</div>
+                        <div class="taskStatusDate taskStatusExpired">Last Tuesday</div>
+                    </div>
+                </div>
+
+                <div class="task" id="task9">
+                    <h2 class="task-heading">Lorem ipsum dolor</h2>   
+                    <div class='task-content'>
+                            Lorem ipsum dolor sit amet, novum menandri adversarium ad vim, ad his persius nostrud conclusionemque. Ne qui atomorum pericula honestatis. Te usu quaeque detracto, idque nulla pro ne, ponderum invidunt eu duo. Vel velit tincidunt in, nulla bonorum id eam, vix ad fastidii consequat definitionem.
+                    </div>
+                    <div class="taskStatus">
+                        <div class="user">AM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
