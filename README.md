@@ -70,7 +70,19 @@ Solution:
     - Quick access button to add product to shopping cart
 - Access to a separate product details page is via clicking the product's image, name and price
     - Additional details like description and summarised reviews are display with its relevant data extracted from https://fakestoreapi.com/products/id
-- The shopping cart page will list 
+- The shopping cart page consist of
+    - Shopping cart
+        - `No products in cart, please continue shopping` present if cart is empty
+        - product details (image and title)
+        - product quantity (ability to add and remove)
+        - product price per unit
+        - total price for produuct
+    - Order Summary (only present if at least one item is in cart)
+        - Total number of items
+        - Total price of items
+        - Shipping options
+        - Total cost of order (total price of items + shipping)
+        - Checkout button [note that button is not functional]
 - Ways to add product to cart. Any successful attempt is as evidenced by the updated shopping cart badge
     - Main page for each product
     - Product detail page
