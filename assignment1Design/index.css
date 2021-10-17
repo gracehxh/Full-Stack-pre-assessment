@@ -11,6 +11,10 @@ body {
     flex-direction: column;
 }
 
+a {
+    cursor: pointer;
+}
+
 .kanban-heading {
     display: flex;
     justify-content: space-between;
@@ -107,6 +111,10 @@ input {
 .task-heading {
     color: #646678;
     font-weight: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .task-content {

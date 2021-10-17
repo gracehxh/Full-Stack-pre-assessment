@@ -16,7 +16,8 @@ Implement given design (`design.png`) in HTML and CSS.
 Try to come up with your own solution and do not use any CSS framework. The content can be hardcoded and you can use any font and images.
 
 Solution:
-Mimicked the design as much as I could. I noticed that the design pretty similar to a kanban board.
+- Mimicked the design as much as I could. I noticed that the design pretty similar to a kanban board.
+- used `https://imagecolorpicker.com/` to keep identify hexadecimal colours, as seen in designAnnotated (`designAnnotated.jpg`)
 
 Assumption:
 That I have to implement the solution as close to the design as possible without questioning certain components. Most of the assumptions would involve at least some form of javascript, not a requiurement, thus not worked upon further.
