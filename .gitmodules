@@ -1,0 +1,3 @@
+[submodule "assignment2shoppingcart"]
+	path = assignment2ShoppingCart
+	url = https://github.com/gracehxh/Full-Stack-pre-assessment.git
