@@ -31,7 +31,7 @@ Technologies: plain HTML, plain CSS
 How to run:
 - Run `git clone https://github.com/gracehxh/Full-Stack-pre-assessment.git`
 - Run `cd assignment1Design`
-- Double click on index page (`index.html`)
+- Run `open index.html` to open html page in preferred browser
 
 Difficulty:
 - Unable to reuse task component as it involves javascript code, not too sure if there is another way to go about it
@@ -94,7 +94,7 @@ Technologies:
     - Downloaded modules through `npx create-react-app` just because it has all the needed dependencies
 - CSS: Tailwindcss
     - To be honest, my initial attempt of the code was done in material ui first as that is what I'm more familiar with. After the base code was completed, then I attempted converting the css to tailwindcss
-    - Initialy material ui was chosen because of its user experience and ready-available design components. Its user experience is also based on years of research from their designers. However as compared to tailwindcss it is known for its relatively slower performance
+    - Initialy material ui was chosen because of its user experience and ready-available design components. Its user experience is also based on years of research from their designers. However as compared to tailwindcss it is known for its relatively slower performance and larger bundle size as compared to tailwindcss
     - Tailwincss does have a potential drawback in which its mainly assists in styling thus one would need to write the components first before making use of tailwindcss. However, using its styling is relatively quick to implement
     - Personally, the bulk of the time was focused on implementing with tailwindcss but I realised that it allows customisation of themes much easier than material ui
 - State management: 
