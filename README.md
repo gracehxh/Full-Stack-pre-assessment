@@ -117,5 +117,7 @@ Difficulties:
 
 How to run:
 - Run `cd ../assignment2shoppingcart`
+- As git recognises this folder as a git submodule, run `git submodule update --init --recursive`
+- To ensure that all code in the folder is updated, run `git submodule update --recursive`
 - Run `npm install` to install dependencies
 - Run `npm run start` and wait for `http://localhost:3000` to open in your preferred window browser
